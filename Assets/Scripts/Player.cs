@@ -23,5 +23,6 @@ public class Player : MonoBehaviour
     {
         targetVector.x = Input.GetAxisRaw("Horizontal");
         targetVector.y = Input.GetAxisRaw("Vertical");
+        targetVector.Normalize();
     }
 }
