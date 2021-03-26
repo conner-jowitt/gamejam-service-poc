@@ -4,3 +4,7 @@ Packages/*
 ProjectSettings/*
 Temp/*
 UserSettings/*
+obj/*
+*.csproj
+.vscode
+*.sln
